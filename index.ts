@@ -8,7 +8,15 @@ class A {
 }
 new A("foo", "bar");
 
-// TODO - class B
+class B {
+  foo: string;
+  bar: string;
+  constructor(foo: string, bar: string) {
+    this.foo = foo;
+    this.bar = bar;
+  }
+}
+new B("foo", "bar");
 class C {
   foo: string;
   bar: string;
